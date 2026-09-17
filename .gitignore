@@ -1,0 +1,17 @@
+# ============================================================
+# Este proyecto se conecta a WLCs reales y genera reportes con
+# datos de clientes/uso de red (confidenciales) además de leer
+# credenciales. Para evitar subir algo sensible por error, se
+# ignora TODO por defecto y solo se permite explícitamente lo
+# que sí debe versionarse (código y plantillas, sin secretos
+# ni datos de clientes reales).
+# ============================================================
+*
+
+!.gitignore
+!README.md
+!requirements.txt
+!wlc_reporte.py
+!run_reporte_semanal.sh
+!wlcs.json.example
+!wlc_credenciales.env.example

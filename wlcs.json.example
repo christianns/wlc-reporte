@@ -1,0 +1,14 @@
+[
+  {
+    "nombre": "WLC-Sede-Principal",
+    "host": "192.168.1.10",
+    "user": "admin",
+    "password_env": "WLC1_PASSWORD"
+  },
+  {
+    "nombre": "WLC-Sede-Secundaria",
+    "host": "192.168.2.10",
+    "user": "admin",
+    "password_env": "WLC2_PASSWORD"
+  }
+]

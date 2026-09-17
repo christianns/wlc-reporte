@@ -1,0 +1,10 @@
+# Requerido
+netmiko>=4.3.0
+
+# Opcionales — descomenta o instala manualmente según lo que necesites:
+#   pandas y openpyxl: exportar reporte_wlc*.xlsx con gráficos
+#   matplotlib: gráfico de tendencia (usuarios vs tiempo) embebido en
+#               resumen_semanal.md
+# pandas>=2.0
+# openpyxl>=3.1
+# matplotlib>=3.8
